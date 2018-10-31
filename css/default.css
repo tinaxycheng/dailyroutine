@@ -52,33 +52,24 @@ a:hover {
 	padding: 2em 0 0 0;
 }
 
-.side {
+.left {
 	float: right;
-	width: 30%;
+	width: 50%;
 	padding-right: 20px;
 	min-width: 320px;
 	box-shadow: 1px 0 rgba(0,0,0,0.1);
 }
 
-.icon{
+.right{
 	opacity:1;
-	font-size: 2em;
 	padding: 0 1em;
 	margin: 0;
 	line-height: 1.5;
 	float: right;
-	width: 70%;
+	width: 50%;
 }
 
-.icon.dr-open{
-	opacity:1;
-	font-size: 2em;
-	padding: 0 1em;
-	margin: 0;
-	line-height: 1.5;
-	float: right;
-	width: 70%;
-}
+
 .container > header {
 	padding: 2.875em 1.875em 2.875em;
 	text-align: center;
