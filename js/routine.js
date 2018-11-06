@@ -57,7 +57,7 @@ $("#shape").addEventListener( "mouseleave", function( event ) {
 	(function(){
 
 
-		var texttotal = ["pack","walk","skincare","coffee","breakfast","PlaningBook","massage","Water the plant","Get dressed","bathroom","comb hair","sing"];
+		var texttotal = ["pack", "walk","skincare","coffee","breakfast","PlaningBook","massage","Water the plant","Get dressed","bathroom","comb hair","sing"];
         var addItemInput = document.querySelector('.addItemInput');
         var addItemButton = document.querySelector('button.addItemButton');
         var shapegreyall = document.querySelectorAll('#color_grey');
@@ -106,28 +106,30 @@ $("#shape").addEventListener( "mouseleave", function( event ) {
 					Array.prototype.slice.call( el.parentNode.querySelectorAll( 'svg > path' ) ).forEach( function( el ) { el.parentNode.removeChild( el ); } );
 			};
 
-			function controlCheckbox( el, type) {
-			    	el.addEventListener( 'change', function() {
-						if( el.checked ) {
-							draw( el, type );
+			function controlCheckbox(input,type) {
+					
+			    	input.addEventListener( 'change', function() {
+						if( input.checked ) {
+							draw( input, type );
+							
 						}
 						else {
-						reset( el );
+						reset( input );
 						}
 						} );
 				 };
 
 
 		function addlist(item,i) {
+				var input = document.createElement("input");
+					input.setAttribute("type", "checkbox");
+					input.setAttribute("name", checkid);
+					input.setAttribute("id",checkid);
+				 var checkid = i.toString();
 				 var li = document.createElement('li'),
-				 input = document.createElement("input"),
 				 label = document.createElement("label"),
-				 svg = createSVGEl( ),
-				 checkid = i.toString();
-				 input.setAttribute("type", "checkbox"),
-				 input.setAttribute("name", checkid),
-				 input.setAttribute("id",checkid),
-				 label.setAttribute("for",checkid),
+				 svg = createSVGEl( );
+				 label.setAttribute("for",checkid);
 				 text = document.createTextNode(item);
 			    
 			
@@ -145,6 +147,7 @@ $("#shape").addEventListener( "mouseleave", function( event ) {
 			var shapegrey = shapegreyall[i];
 			shapegrey.onclick = function(){
 			addlist(item, i);
+			shapegrey.style.opacity=0.2;
 			};
 		};
 	
