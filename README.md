@@ -1,3 +1,2 @@
-Created by Codrops
-
-Please read about our license: http://tympanus.net/codrops/licensing/
+Created by Tina Cheng
+App tracking the daily routine
