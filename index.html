@@ -12,6 +12,8 @@
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="js/modernizr.custom.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 	</head>
 	<body>
 		<div class="container">	
@@ -20,175 +22,137 @@
 			</header>
 			<div class="main">
 	
-<div class="right">
-<div>
-			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-				 width="179.667px" height="296.667px" viewBox="0 0 179.667 296.667" enable-background="new 0 0 179.667 296.667"
-				 xml:space="preserve">
-			<g id="night">
-				<polygon stroke="#000000" stroke-miterlimit="10" points="60,139.239 16,171.239 10.667,222.572 60,242.572 
-					98.335,229.905 98.335,229.905 102.667,201.239 	"/>
-				<text transform="matrix(0.8825 0 0 1 18.3355 217.9056)" fill="black" font-family="'MyriadPro-Regular'" font-size="31.6258">10 PM</text>
-			</g>
-			<g id="night9">
-				<polyline points="86.407,116.461 60,139.239 102.667,201.239 143.333,192.572 172,165.239 134.111,139.239 	"/>
-				<text transform="matrix(0.8825 0 0 1 82.3355 168.9528)" fill="none" stroke="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="31.6258">9 PM</text>
-			</g>
-			<g id="night">
-				<polygon stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="110.259,60.667 75.333,84.071 
-					86.407,116.461 134.111,139.239 167.333,107.475 167.333,60.667 	"/>
-				<text transform="matrix(0.8825 0 0 1 98.3355 106.6195)" fill="black" font-family="'MyriadPro-Regular'" font-size="31.6258">8 PM</text>
-			</g>
-			</svg>
-	</div>
-
-	<div class = "dr-menu">
-	<div class="dr-trigger"><span class="dr-icon dr-icon-menu"></span><a class="dr-label night">Night Routine</a></div>
-					<form class="ac-custom ac-checkbox ac-checkmark">
-					    <ul id="linksnight">
-					    
-							<li><input id="cb6" name="cb6" type="checkbox"><label for="cb6">Be Grateful  </label></a>
-							</li>
-							<li><input id="cb7" name="cb7" type="checkbox"><label for="cb7">Learn Dutch  </label></a>
-							
-							</li>
-							
-							<li><input id="cb8" name="cb8" type="checkbox"><label for="cb8">Floss and Clean  </label></a> 
-							</li>
-							<li>
-							<input id="cb9" name="cb9" type="checkbox"><label for="cb9">Message  </label></a>
-							
-							</li>
-
-
-						</ul>
-						</form>
-	</div>				
-
-</div>
-
-	<div class="left">
+				<div class="left">
 					<nav class="dr-menu">
 
 						<div class="dr-trigger"><span class="dr-icon dr-icon-menu"></span><a class="dr-label">Morning Routine</a></div>
 						<form class="ac-custom ac-checkbox ac-checkmark">
 						
 					    <ul id="links" >
-							<li><input id="cb1" name="cb1" type="checkbox"><label for="cb1">Meditate </label><span>5min</span></a>
+							<li><input id="cb1" name="cb1" type="checkbox"><label for="cb1">Meditate </label></a>
 							<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"></svg>
 							</li>
 							
 						</ul>
 						</form>
 					</nav>
+
+					<input type="text" class="addItemInput">
+                <button class="addItemButton"> Add Item </button>
+				</div>
 					    
-				<div class="morningicon">
-								<svg version="1.1" id="diamond6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-							 width="117px" height="200.99px" viewBox="57 0 117 200.99" enable-background="new 0 0 117 200.99"
-							 xml:space="preserve">
-							
-									<g id="color_grey">
-										<polygon fill="#BCBCBB" points="148.068,43.899 166.401,81.899 166.401,117.233 121.401,134.566 116.766,129.999 143.901,103.616 
-													"/>
-									</g>
-								
-									<g id="color_main">
-										<polygon fill="#FBF6B2" points="148.068,43.899 76.068,64.899 76.068,89.899 116.766,129.999 143.901,101.899 		"/>
-									</g>
-								
-								
-									<g id="line">
-										<polygon fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="76.068,89.899 121.401,134.566 
-											166.401,117.233 166.401,81.899 164.782,78.544 148.068,43.899 76.068,62.566 		"/>
-										<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="166.401" y1="117.233" x2="76.068" y2="62.566"/>
-										<polyline fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" points="148.068,43.899 143.901,103.616 
-											116.766,129.999 143.901,103.616 148.068,43.899 106.303,79.233 103.809,117.233 		"/>
-									</g>
-								
-									<g id="text">
-										<text transform="matrix(0.8825 0 0 1 125.9385 87.5659)" font-family="'MyriadPro-Regular'" font-size="31.6258">6 </text>
-										<text transform="matrix(1.1858 0 0 1 106.1505 112.3989)" font-family="'MyriadPro-Regular'" font-size="16.2932">AM</text>
-									</g>
-								
-								</svg>
-							
+				<div class="right">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 width=1200px  viewBox="0 0 600 136.667" enable-background="new 0 0 800 136.667"
+				 xml:space="preserve">
+			<g id="shape">
+			<g id="color_grey" >
+				<polygon  fill="#C9E5C8" points="558.741,16.627 574.755,63.018 574.755,63.018 546.229,27.792 
+					486.941,16.627 	"/>
+			</g>
+			<g id="color_grey" >		
+				<polygon fill="#C9E5C8" points="100.765,10.755 28.765,29.422 28.765,56.755 56.506,84.089 59,46.089 	"/>
+			</g>
+			<g id="color_grey" >
+				<polygon id="color" fill="#C9E5C8" points="519.972,73.715 559.79,84.061 559.79,84.061 551.619,95.55 498.49,95.55 
+					465.189,41.843 486.941,16.627 465.189,41.843 	"/>
+			</g>
+			<g id="color_grey" >
+				<polygon id="color" fill="#C9E5C8" points="546.229,27.792 546.229,27.792 486.941,16.627 465.189,41.843 
+					519.972,73.715 559.79,84.061 574.755,63.018 574.755,63.018 	"/>
+			</g>
+			<g id="color_grey">
+				<polygon id="color" fill="#C9E5C8" points="372.794,20.672 393.607,17.572 411.607,28.632 409.109,71.709 
+					393.107,91.239 398.827,46.905 	"/>
+			</g>
+			<g id="color_grey">
+				<polygon id="color" fill="#C9E5C8" points="347.441,24.448 338.859,61.424 357.274,91.239 393.107,91.239 
+					398.827,46.905 372.794,20.672 	"/>
+			</g>
+			<g id="color_grey">
+				<polygon id="color" fill="#C9E5C8" points="312.107,60.429 330.94,26.905 347.441,24.448 346.761,70.709 
+					357.274,91.239 330.94,91.239 	"/>
+			</g>
+			<g id="color_grey" >
+				<polygon id="color" fill="#C9E5C8" points="246.91,25.077 272.182,49.739 272.015,67.739 254.182,94.406 
+					238.89,97.771 254.931,62.715 	"/>
+			</g>
+			<g id="color_grey" class="dressed">
+				<polygon id="color" fill="#C9E5C8" points="226.849,5.073 197.321,54.406 208.016,101.282 238.89,97.771 
+					254.931,62.715 246.91,25.077 	"/>
+			</g>
+			<g id="color_grey" class="bathroom">
+				<polygon id="color" fill="#C9E5C8" points="226.849,5.073 197.321,54.406 208.016,101.282 191.515,103.739 
+					191.515,103.739 163.515,40.406 	"/>
+			</g>
+			<g id="color_grey" class="comb">
+				<polygon id="color" fill="#C9E5C8" points="99.895,10.318 58.849,46.485 57.12,84.528 70.331,97.03 96.93,70.107 	"/>
+			</g>
+			
+			<g id="color_grey" class="sing" >
+				<polygon id="color" fill="#C9E5C8" points="100.765,10.755 119.098,48.755 119.098,84.089 74.098,101.422 
+						69.463,96.855 96.598,70.472 		"/>
+			</g>
+			
+			</g>
+			
+			<g id="text">
+				<text id="coffee" transform="matrix(1 0 0 1 498.49 50.3436)" font-size="12">coffee</text>
+				<text id="sing" transform="matrix(0.9754 -0.2205 0.2205 0.9754 87.8136 90.6992)" font-size="12">Sing</text>
+				<text transform="matrix(0.9602 -0.2793 0.2793 0.9602 351.7156 72.7579)"><tspan x="0" y="0" font-size="12">Planning</tspan><tspan x="0" y="14.4"  font-size="12">book</tspan></text>
+				<text transform="matrix(-0.1915 0.9815 -0.9815 -0.1915 403.5143 36.4356)"  font-size="12">breakfast</text>
+				<text transform="matrix(0.7878 0.616 -0.616 0.7878 70.2412 47.5516)"  font-size="12">Comb</text>
+				<text transform="matrix(0.9987 0.0518 -0.0518 0.9987 204.6543 69.424)"  font-size="12">dressed</text>
+				<text transform="matrix(0.3813 -0.9244 0.9244 0.3813 250.2553 93.5548)"  font-size="12">water</text>
+				<text transform="matrix(1 0 0 1 512.4891 91.239)" font-size="12">skincare</text>
+				<text transform="matrix(0.3754 0.9269 -0.9269 0.3754 175.8972 53.1768)"  font-size="12">bathroom</text>
+				<text transform="matrix(0.5479 -0.8366 0.8366 0.5479 44.1941 56.7544)"  font-size="12">Walk</text>
+				<text transform="matrix(0.3754 0.9269 -0.9269 0.3754 320.8972 50.3432)"  font-size="12">massage</text>
+				<text transform="matrix(1 0 0 1 528.6153 24.4482)" font-size="12">pack</text>
+			</g>
+			<g id="line_2_">
+				<polyline fill="none" stroke="#010101" stroke-width="0.5" stroke-miterlimit="10" points="238.89,97.771 254.931,62.715 
+					246.91,25.077 	"/>
+				<polyline fill="none" stroke="#010101" stroke-width="0.5" stroke-miterlimit="10" points="163.515,40.406 197.321,54.406 
+					254.931,62.715 272.182,49.739 226.849,5.073 163.515,40.406 174.313,64.83 191.515,103.739 215.772,100.127 254.182,94.406 
+					272.015,67.739 272.182,49.739 	"/>
+				<polyline fill="none" stroke="#010101" stroke-width="0.5" stroke-miterlimit="10" points="226.849,5.073 197.321,54.406 
+					208.016,101.282 	"/>
+				<polyline fill="none" stroke="#010101" stroke-width="0.5" stroke-miterlimit="10" points="330.94,26.905 312.107,60.429 
+					330.94,91.239 393.107,91.239 409.109,71.709 411.607,28.632 393.607,17.572 330.94,26.905 	"/>
+				<polyline fill="none" stroke="#010101" stroke-width="0.5" stroke-miterlimit="10" points="393.107,91.239 398.827,46.905 
+					372.794,20.672 	"/>
+				<polyline fill="none" stroke="#010101" stroke-width="0.5" stroke-miterlimit="10" points="347.441,24.448 338.859,61.424 
+					357.274,91.239 	"/>
+				<g id="line_copy_3_1_">
+					<polygon fill="none" stroke="#010101" stroke-width="0.5" stroke-miterlimit="10" points="486.941,16.627 465.189,41.843 
+						498.49,95.55 551.619,95.55 574.755,63.018 558.741,16.627 		"/>
+					<polyline fill="none" stroke="#010101" stroke-width="0.5" stroke-miterlimit="10" points="574.755,63.018 546.229,27.792 
+						486.941,16.627 		"/>
+					<polyline fill="none" stroke="#010101" stroke-width="0.5" stroke-miterlimit="10" points="465.189,41.843 519.972,73.715 
+						559.79,84.061 		"/>
+				</g>
+				<g id="Layer_1_2_">
+					<g id="line_1_">
+						<polygon fill="none" stroke="#010101" stroke-width="0.5" stroke-miterlimit="10" points="28.765,56.755 74.098,101.422 
+							119.098,84.089 119.098,48.755 117.479,45.4 100.765,10.755 28.765,29.422 			"/>
+						
+							<line fill="none" stroke="#010101" stroke-width="0.5" stroke-miterlimit="10" x1="119.098" y1="84.089" x2="28.765" y2="29.422"/>
+						<polyline fill="none" stroke="#010101" stroke-width="0.5" stroke-miterlimit="10" points="100.765,10.755 96.598,70.472 
+							69.463,96.855 96.598,70.472 100.765,10.755 59,46.089 56.506,84.089 			"/>
+					</g>
+				</g>
+				<polyline fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" points="312.107,60.429 338.859,61.424 
+					398.827,46.905 411.607,28.632 	"/>
+				<polyline fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" points="498.49,95.55 519.972,73.715 
+					546.229,27.792 558.741,16.627 	"/>
+			</g>
+			</svg>
 
 
-
-								<svg version="1.1" id="diamond7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-									 width="132px" height="296.667px" viewBox="0 0 132 296.667" enable-background="new 0 0 132 296.667" xml:space="preserve">
-								<g id="color_main_2">
-									<polygon fill="#FCD4D4" points="72.667,52.667 26.667,100.771 53.834,148.876 84.708,145.365 100.749,110.309 92.728,72.671 	"/>
-								</g>
-								<g id="color_grey">
-									<polygon fill="#C6C6C5" points="92.728,72.671 118,97.333 117.833,115.333 100,142 84.708,145.365 100.749,110.309 	"/>
-									<polygon fill="#C6C6C5" points="72.667,52.667 26.667,100.771 53.834,148.876 37.333,151.333 37.333,151.333 9.333,88 	"/>
-								</g>
-								<g id="line_2">
-									<polyline fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" points="84.708,145.365 100.749,110.309 
-										92.728,72.671 	"/>
-									<polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="118,97.333 72.667,52.667 9.333,88 
-										20.131,112.424 37.333,151.333 61.59,147.721 100,142 117.833,115.333 118,97.333 	"/>
-									<polyline fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" points="72.667,52.667 26.667,100.771 
-										53.834,148.876 	"/>
-								</g>
-								<g id="time_2">
-									<text transform="matrix(0.8825 0 0 1 35.7511 113.4037)" font-family="'MyriadPro-Regular'" font-size="31.6258">7</text>
-									<text transform="matrix(0.8825 0 0 1 40 113.4037)" font-family="'MyriadPro-Regular'" font-size="18">  AM</text>
-								</g>
-								</svg>
-
-
-								<svg version="1.1" id="diamond8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-									 width="132px" height="296.667px" viewBox="0 0 132 296.667" enable-background="new 0 0 132 296.667" xml:space="preserve">
-								<g id="color_main_"3>
-									<polygon fill="#D8EFEF" points="53.834,148.876 40.708,196.057 63.667,215.667 99.5,215.667 105.22,171.333 84.708,145.365 	"/>
-								</g>
-								<g id="color_grey">
-									<polygon fill="#C6C6C5" points="86,145.924 100,142 118,153.06 126,190 99.5,215.667 105.22,171.333 	"/>
-									<polygon fill="#C6C6C5" points="18.5,184.857 37.333,151.333 53.834,148.876 40.708,196.057 63.667,215.667 37.333,215.667 	"/>
-								</g>
-								<g id="line_3">
-									<polyline fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" points="37.333,151.333 18.5,184.857 
-										37.333,215.667 99.5,215.667 126,190 118,153.06 100,142 37.333,151.333 	"/>
-									<polyline fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" points="99.5,215.667 105.22,171.333 
-										86,145.924 	"/>
-									<polyline fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" points="53.834,148.876 40.708,196.057 
-										63.667,215.667 	"/>
-								</g>
-								<g id="time_3">
-									<text transform="matrix(0.8825 0 0 1 63.6665 175.6042)" font-family="'MyriadPro-Regular'" font-size="31.6258">8 </text>
-									<text transform="matrix(1.1858 0 0 1 59.0001 200.183)" font-family="'MyriadPro-Regular'" font-size="16.2932">AM</text>
-								</g>
-								</svg>
-
-								<svg version="1.1" id="diamond9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-									 width="126.667px" height="296.667px" viewBox="0 0 126.667 296.667" enable-background="new 0 0 126.667 296.667"
-									 xml:space="preserve">
-								<g id="color_main_4">
-									<polygon fill="#C1E1BF" points="89.207,216.242 89.207,216.242 29.919,205.077 8.167,230.293 62.95,262.165 102.768,272.511 
-										117.733,251.468 117.733,251.468 	"/>
-								</g>
-								<g id="color_grey">
-									<polygon fill="#C6C6C5" points="62.95,262.165 102.768,272.511 102.768,272.511 94.597,284 41.468,284 8.167,230.293 
-										29.919,205.077 8.167,230.293 	"/>
-									<polygon fill="#C6C6C5" points="101.719,205.077 117.733,251.468 117.733,251.468 89.207,216.242 29.919,205.077 101.719,205.077 	
-										"/>
-								</g>
-								<g id="line_4">
-									<polygon fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="29.919,205.077 8.167,230.293 41.468,284 
-										94.597,284 117.733,251.468 101.719,205.077 	"/>
-									<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="117.733,251.468 89.207,216.242 29.919,205.077 	"/>
-									<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="8.167,230.293 62.95,262.165 102.768,272.511 	"/>
-								</g>
-								<g id="time_4">
-									<text transform="matrix(0.8825 0 0 1 44.0001 238.7941)" font-family="'MyriadPro-Regular'" font-size="31.6258">9</text>
-									<text transform="matrix(1.1858 0 0 1 62.9498 248.6356)" font-family="'MyriadPro-Regular'" font-size="16.2932">AM</text>
-								</g>
-								</svg>
 				</div>
-				<p id="time"> Show Time </p>
-				</div>
+				
+
 			</div>
 		</div><!-- /container -->
 		<script src="js/routine.js"></script>

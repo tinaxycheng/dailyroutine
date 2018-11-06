@@ -132,12 +132,9 @@
 
 .dr-menu {
 	width: 100%;
-	max-width: 600px;
-	min-width: 300px;
 	position: relative;
 	line-height: 2.5;
 	font-weight: 400;
-
 	padding-top: 2em;
 }
 
@@ -244,6 +241,7 @@ ul{
 }
 
 .dr-menu.dr-menu-open ul li{
+	position:relative;
 	opacity: 1;
 }
 
