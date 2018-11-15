@@ -121,11 +121,12 @@ $("#shape").addEventListener( "mouseleave", function( event ) {
 
 
 		function addlist(item,i) {
+			    var checkid = i.toString();
 				var input = document.createElement("input");
 					input.setAttribute("type", "checkbox");
 					input.setAttribute("name", checkid);
 					input.setAttribute("id",checkid);
-				 var checkid = i.toString();
+				 
 				 var li = document.createElement('li'),
 				 label = document.createElement("label"),
 				 svg = createSVGEl( );
